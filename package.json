@@ -1,0 +1,31 @@
+{
+  "name": "oreoswap-swap-lib",
+  "version": "1.0.0",
+  "description": "Oreoswap swapping librarires",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oreoswap-BSC/oreoswap-swap-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oreoswap-BSC/oreoswap-swap-lib/issues"
+  },
+  "homepage": "https://github.com/Oreoswap-BSC/oreoswap-swap-lib#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "path": "^0.12.7",
+    "@pancakeswap/pancake-swap-lib": "^0.0.1"
+  },
+  "devDependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
