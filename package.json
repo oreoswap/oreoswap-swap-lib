@@ -1,5 +1,5 @@
 {
-  "name": "oreoswap-swap-lib",
+  "name": "@oreoswap-swap-lib",
   "version": "1.0.0",
   "description": "Oreoswap swapping librarires",
   "main": "truffle-config.js",
@@ -19,13 +19,27 @@
   "bugs": {
     "url": "https://github.com/Oreoswap-BSC/oreoswap-swap-lib/issues"
   },
-  "homepage": "https://github.com/Oreoswap-BSC/oreoswap-swap-lib#readme",
-  "dependencies": {
-    "dotenv": "^9.0.2",
-    "path": "^0.12.7",
-    "@pancakeswap/pancake-swap-lib": "^0.0.1"
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   },
+  
+  "engines": {
+    "node": ">=10"
+  },
+  "homepage": "https://github.com/Oreoswap-BSC/oreoswap-swap-lib#readme",
+
   "devDependencies": {
-    "truffle-hdwallet-provider": "^1.0.17"
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "mocha": "^7.1.1",
+    "prettier": "^2.0.4",
+    "prettier-plugin-solidity": "^1.0.0-alpha.57",
+    "rimraf": "^3.0.2",
+    "solc": "^0.6.0",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
   }
-}
+  
+ }
